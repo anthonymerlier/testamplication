@@ -15,7 +15,7 @@ import { VoitureWhereUniqueInput } from "./VoitureWhereUniqueInput";
 import { VoitureFindManyArgs } from "./VoitureFindManyArgs";
 import { VoitureUpdateInput } from "./VoitureUpdateInput";
 import { Voiture } from "./Voiture";
-@swagger.ApiBearerAuth()
+@swagger.ApiBasicAuth()
 export class VoitureControllerBase {
   constructor(
     protected readonly service: VoitureService,

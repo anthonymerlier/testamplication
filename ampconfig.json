@@ -3,7 +3,7 @@
   "appInfo": {
     "name": "My app",
     "description": "",
-    "version": "zbiqb4vi",
+    "version": "3jd45hd9",
     "id": "ckv976mxa2347301bs6ufjif146",
     "url": "https://app.amplication.com/ckv976mxa2347301bs6ufjif146",
     "settings": {
@@ -13,7 +13,7 @@
       "dbPort": 3306,
       "dbUser": "root",
       "appId": "ckv976mxa2347301bs6ufjif146",
-      "authProvider": "Jwt"
+      "authProvider": "Http"
     }
   }
 }

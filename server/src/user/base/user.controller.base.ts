@@ -15,7 +15,7 @@ import { UserWhereUniqueInput } from "./UserWhereUniqueInput";
 import { UserFindManyArgs } from "./UserFindManyArgs";
 import { UserUpdateInput } from "./UserUpdateInput";
 import { User } from "./User";
-@swagger.ApiBearerAuth()
+@swagger.ApiBasicAuth()
 export class UserControllerBase {
   constructor(
     protected readonly service: UserService,
