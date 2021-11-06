@@ -15,7 +15,7 @@ import { BrandWhereUniqueInput } from "./BrandWhereUniqueInput";
 import { BrandFindManyArgs } from "./BrandFindManyArgs";
 import { BrandUpdateInput } from "./BrandUpdateInput";
 import { Brand } from "./Brand";
-@swagger.ApiBearerAuth()
+@swagger.ApiBasicAuth()
 export class BrandControllerBase {
   constructor(
     protected readonly service: BrandService,
