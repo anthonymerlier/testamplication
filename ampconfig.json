@@ -1,0 +1,19 @@
+{
+  "dataServiceGeneratorVersion": "0.10.1",
+  "appInfo": {
+    "name": "My app",
+    "description": "",
+    "version": "zbiqb4vi",
+    "id": "ckv976mxa2347301bs6ufjif146",
+    "url": "https://app.amplication.com/ckv976mxa2347301bs6ufjif146",
+    "settings": {
+      "dbHost": "localhost",
+      "dbName": "testamp",
+      "dbPassword": "root",
+      "dbPort": 3306,
+      "dbUser": "root",
+      "appId": "ckv976mxa2347301bs6ufjif146",
+      "authProvider": "Jwt"
+    }
+  }
+}
